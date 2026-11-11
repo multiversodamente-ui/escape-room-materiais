@@ -1,0 +1,7 @@
+/dist/
+*.user
+*.suo
+configuracao-tres-salas.xml
+erro-verificacao.txt
+hardware.txt
+audio-silencioso.txt

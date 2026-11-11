@@ -1,0 +1,85 @@
+CRONÔMETRO ESCAPE ROOM — TRÊS SALAS
+Versão de 10/11/2026
+
+COMO ABRIR
+Abra "Cronometro Tres Salas.exe". O aplicativo funciona sem internet e sem instalação. Os sons e a logo já estão dentro do programa.
+Se recebeu o ZIP, extraia-o antes de abrir o aplicativo.
+
+PREPARAR AS TRÊS SALAS
+1. Conecte as três telas ou projetores ao mesmo computador.
+2. Nas configurações de vídeo do Windows, escolha ESTENDER. Cada sala precisa aparecer como uma tela independente para receber seu tema.
+3. Abra o aplicativo e clique em "Atualizar telas e saídas".
+4. Escolha uma tela diferente para cada sala:
+   Sala 01 — Crise Climática
+   Sala 02 — Segurança Alimentar
+   Sala 03 — Energia do Futuro
+5. Na mesma linha, selecione a saída de áudio correspondente à tela HDMI ou à caixa daquela sala. Use "Testar som" para conferir a localização.
+6. Escolha "Tempo e sons" para ajustar a duração, o ritmo, os efeitos e o volume.
+7. Clique em "Projetar nas 3 telas". O painel do operador ficará oculto.
+8. Pressione F2 em uma projeção para voltar ao painel. Clique em "Iniciar nas 3 salas" e pressione ESC no painel para voltar à projeção.
+
+Se houver apenas uma ou duas telas, "Prévia dos três temas" abre as três janelas para conferir o visual. A projeção completa exige três telas distintas reconhecidas pelo Windows.
+
+ÁUDIO NAS TELAS OU CAIXAS
+O mesmo efeito é enviado às saídas selecionadas a cada disparo programado. Se a mesma saída for selecionada mais de uma vez, o som será enviado apenas uma vez a ela, evitando eco por duplicação.
+
+No início, as três salas apontam para a saída padrão do Windows. Selecione as saídas individuais para ouvir em equipamentos separados. Uma caixa só aparece na lista quando o Windows a reconhece como saída de áudio. Se as três caixas estiverem ligadas a um distribuidor da mesma saída, selecione essa saída; o distribuidor se encarrega das caixas.
+
+As escolhas de tela e de saída de áudio devem ser conferidas a cada abertura do aplicativo e depois de conectar ou remover equipamentos. A duração, o ritmo, os efeitos e o volume são salvos na pasta do programa quando você aplica as configurações.
+
+SONS AUTOMÁTICOS
+Há oito efeitos disponíveis para alternar durante a contagem:
+• Alarme de perigo
+• Sirene eletrônica
+• Estrondo de destruição
+• Explosão
+• Impacto grave
+• Queda de frequência
+• Descarga elétrica
+• Faíscas / curto-circuito
+
+Os efeitos selecionados são embaralhados. Todos são usados antes de começar outro ciclo. Com dois ou mais efeitos selecionados, não há repetição imediata entre os efeitos da contagem. O efeito final é escolhido separadamente.
+
+Os sons são intervenções curtas ao longo do jogo, com intervalos de silêncio. O efeito padrão de encerramento é "Explosão e colapso". Você pode escolher outro ou deixar o encerramento sem som.
+
+QUANTIDADE EM UMA RODADA DE 60 MINUTOS
+Leve — intervalo regular de 5 minutos: 16 durante a contagem + 1 final = 17 disparos.
+Equilibrado (padrão) — intervalo regular de 3 minutos: 24 durante a contagem + 1 final = 25 disparos.
+Intenso — intervalo regular de 1 minuto e 30 segundos: 44 durante a contagem + 1 final = 45 disparos.
+
+O primeiro efeito acontece ao iniciar. No último minuto, os efeitos acontecem aos 60, 40, 20 e 10 segundos restantes. Ao chegar a zero, toca o efeito final escolhido.
+Rodadas curtas são ajustadas para manter pelo menos 10 segundos entre disparos. O total é recalculado ao mudar a duração. Em 30 minutos no ritmo equilibrado, são 15 disparos incluindo o final.
+
+"Ver programação" mostra a lista exata da rodada atual. O painel também mostra a quantidade programada, os efeitos enviados e o próximo efeito. Essa contagem é de eventos: um efeito enviado às três saídas conta como um disparo, não três. O aplicativo não mede fisicamente se a caixa produziu som.
+
+CONTROLE DA RODADA
+• Iniciar / Pausar: controla o mesmo relógio nas três salas.
+• Pausar: interrompe o áudio atual e preserva o tempo. Continuar retoma a contagem sem repetir os efeitos anteriores.
+• Silenciar: interrompe o áudio e omite os disparos seguintes enquanto estiver ativo. Reativar não acumula nem repete os efeitos omitidos.
+• Missão concluída: congela o tempo e cancela os próximos sons.
+• Reiniciar: prepara outra rodada e reorganiza a ordem dos sons.
+• Tempo e sons: disponível com a contagem parada ou pausada. "Aplicar e reiniciar" prepara uma nova rodada nas três salas.
+• Testar som: disponível com a contagem parada ou pausada.
+
+ATALHOS
+ESPAÇO no painel: iniciar / pausar.
+F2 em uma projeção: abrir o painel do operador.
+ESC no painel: ocultar o painel e voltar à projeção.
+ESC em uma projeção: sair da tela cheia nessa janela.
+F11 em uma projeção: alternar tela cheia.
+
+O computador permanece ativo durante a contagem. O programa não altera permanentemente as opções de energia nem o volume geral do Windows.
+
+CONFERÊNCIA REALIZADA
+A contagem, pausas, conclusão, alternância e quantidade de sons foram verificadas automaticamente. As três telas recebem a mesma leitura do mesmo relógio. Os temas foram renderizados e conferidos.
+Neste computador foram detectadas uma tela e duas saídas de áudio. O envio simultâneo de dados silenciosos às duas saídas foi concluído. A reprodução audível e a distribuição física nas três salas ainda precisam ser conferidas com os equipamentos conectados, usando "Testar som".
+
+ARQUIVOS INCLUÍDOS
+• Cronometro Tres Salas.exe — aplicativo.
+• Audios — os nove arquivos de som para consulta, já incorporados ao aplicativo.
+• Previas — imagens dos temas e do painel.
+• Programacao_60_minutos.csv — horários do exemplo padrão, sem fixar a ordem aleatória dos efeitos.
+• CREDITOS.txt — autores, fontes e licenças dos sons.
+• Verificacao.txt — resultado das verificações.
+
+Os efeitos gratuitos e suas licenças estão identificados em CREDITOS.txt e no botão "Áudios e créditos".

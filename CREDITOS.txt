@@ -1,0 +1,64 @@
+CRONÔMETRO ESCAPE ROOM - ÁUDIOS GRATUITOS
+
+Todos os áudios são distribuídos gratuitamente por seus autores e podem ser usados neste aplicativo. Os arquivos ficam integrados ao programa; a reprodução não precisa de internet.
+
+1. EXPLOSÃO
+Original: Explosion
+Autor / fornecedor: Woven SFX
+Fonte: https://www.woven.video/sfx/boom-sound-effect
+Download: https://assets.sfx.woven.video/sfx/explosion.wav
+Licença: CC0 1.0
+https://creativecommons.org/publicdomain/zero/1.0/
+
+2. ALARME DE PERIGO
+Original: Alarm
+Autor: Frenchyboy
+Fonte: https://opengameart.org/content/alarm-2
+Download: https://opengameart.org/sites/default/files/alarm_0.wav
+Licença: CC0 1.0
+https://creativecommons.org/publicdomain/zero/1.0/
+
+3. SIRENE ELETRÔNICA
+Original: Alarm Sound Effect
+Autor: bonzille
+Fonte: https://opengameart.org/content/alarm-sound-effect
+Download: https://opengameart.org/sites/default/files/alarm_2.wav
+Licença: CC0 1.0
+https://creativecommons.org/publicdomain/zero/1.0/
+
+4. ESTRONDO DE DESTRUIÇÃO
+Original: Rumble/explosion
+Autor: Michel Baradari; publicação por qubodup
+Fonte: https://opengameart.org/content/rumbleexplosion
+Download: https://opengameart.org/sites/default/files/rumble.flac
+Licença: Creative Commons Attribution 3.0 (CC BY 3.0)
+https://creativecommons.org/licenses/by/3.0/
+Crédito: Rumble/explosion, de Michel Baradari, CC BY 3.0.
+
+5. EXPLOSÃO E COLAPSO
+Montagem dos áudios Explosion, de Woven SFX (CC0), e Rumble/explosion, de Michel Baradari (CC BY 3.0), com pausas e uma repetição da explosão em volume reduzido. Os componentes mantêm suas licenças.
+
+ALTERAÇÕES NOS ARQUIVOS
+Conversão para WAV PCM de 16 bits, mono, 44,1 kHz; normalização do pico e pequenas transições de início e fim. Créditos e links acima permanecem disponíveis no botão "Áudios e créditos".
+
+Logo do evento: arquivo oficial fornecido no projeto do usuário. As licenças de áudio não se aplicam à marca do evento.
+
+Fontes consultadas em 10/11/2026. A inclusão dos áudios não implica endosso dos autores ao evento.
+
+EFEITOS ADICIONAIS DA VERSÃO TRÊS SALAS
+
+6. IMPACTO GRAVE - bass-impact, Woven SFX, CC0 1.0.
+https://www.woven.video/sfx/boom-sound-effect
+https://assets.sfx.woven.video/sfx/bass-impact.wav
+
+7. QUEDA DE FREQUÊNCIA - base-drop, Woven SFX, CC0 1.0.
+https://www.woven.video/sfx/boom-sound-effect
+https://assets.sfx.woven.video/sfx/base-drop.wav
+
+8. DESCARGA ELÉTRICA - continuousspark.wav, BMacZero / Brian MacIntosh, CC0 1.0.
+9. FAÍSCAS / CURTO-CIRCUITO - spark.wav, BMacZero / Brian MacIntosh, CC0 1.0.
+Página de ambos: https://opengameart.org/content/electricity-sound-effects-0
+Downloads: https://opengameart.org/sites/default/files/continuousspark.wav
+https://opengameart.org/sites/default/files/spark.wav
+
+Os quatro efeitos adicionais foram convertidos para PCM mono 16-bit / 44,1 kHz e tiveram o pico normalizado. Os dois efeitos elétricos curtos foram montados em quatro pulsos com pequenas pausas, transições e atenuação progressiva. Crédito opcional preservado: Brian MacIntosh.

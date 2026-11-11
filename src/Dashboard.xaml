@@ -1,0 +1,23 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Escape Room · Controle das três salas" Width="1240" Height="860" MinWidth="950" MinHeight="650" WindowStartupLocation="CenterScreen" Background="#0B1220" Foreground="#EDF4FF" FontFamily="Segoe UI">
+ <Window.Resources>
+  <Style TargetType="Button"><Setter Property="FontSize" Value="15"/><Setter Property="Padding" Value="18,11"/><Setter Property="Margin" Value="0,0,10,0"/><Setter Property="Cursor" Value="Hand"/><Setter Property="Background" Value="#22324C"/><Setter Property="Foreground" Value="#EDF4FF"/><Setter Property="Template"><Setter.Value><ControlTemplate TargetType="Button"><Border Background="{TemplateBinding Background}" BorderBrush="#405271" BorderThickness="1" CornerRadius="9"><ContentPresenter Margin="{TemplateBinding Padding}" HorizontalAlignment="Center" VerticalAlignment="Center"/></Border><ControlTemplate.Triggers><Trigger Property="IsEnabled" Value="False"><Setter Property="Opacity" Value="0.35"/></Trigger><Trigger Property="IsMouseOver" Value="True"><Setter Property="Opacity" Value="0.8"/></Trigger></ControlTemplate.Triggers></ControlTemplate></Setter.Value></Setter></Style>
+  <Style TargetType="ComboBox"><Setter Property="FontSize" Value="14"/><Setter Property="MinHeight" Value="36"/><Setter Property="Padding" Value="7"/><Setter Property="Foreground" Value="#18243A"/></Style>
+ </Window.Resources>
+ <ScrollViewer VerticalScrollBarVisibility="Auto" Background="#0B1220"><StackPanel Margin="30">
+  <Grid><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="360"/></Grid.ColumnDefinitions>
+   <StackPanel><TextBlock Text="ESCAPE ROOM CIENTÍFICO" Foreground="#8FA7C8" FontSize="12" FontWeight="Bold"/><TextBlock Text="Três salas. Um relógio." FontSize="32" FontWeight="SemiBold" Margin="0,6,0,0"/><TextBlock x:Name="StageText" Text="Pronto para começar" Foreground="#6BE2CF" FontSize="17" Margin="0,14,0,0"/></StackPanel>
+   <StackPanel Grid.Column="1" HorizontalAlignment="Right"><TextBlock x:Name="MainTime" Text="60:00" FontFamily="Bahnschrift" FontWeight="SemiBold" FontSize="73"/><TextBlock Text="TEMPO COMPARTILHADO NAS TRÊS TELAS" FontSize="10" Foreground="#93A8C3" HorizontalAlignment="Right"/></StackPanel>
+  </Grid>
+  <WrapPanel Margin="0,24,0,25"><Button x:Name="StartButton" Content="INICIAR NAS 3 SALAS" Background="#53CDB9" Foreground="#09251D" FontWeight="Bold"/><Button x:Name="ResetButton" Content="Reiniciar"/><Button x:Name="SuccessButton" Content="Missão concluída"/><Button x:Name="ConfigButton" Content="Tempo e sons"/><Button x:Name="MuteButton" Content="Silenciar"/></WrapPanel>
+  <Grid><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><TextBlock Text="PROJEÇÕES E ÁUDIO" FontSize="12" FontWeight="Bold" Foreground="#8FA7C8" VerticalAlignment="Center"/><Button Grid.Column="1" x:Name="RefreshButton" Content="Atualizar telas e saídas" FontSize="12" Padding="12,7" Margin="0"/></Grid>
+  <StackPanel x:Name="RoomsPanel" Margin="0,12,0,16"/>
+  <WrapPanel><Button x:Name="ProjectButton" Content="PROJETAR NAS 3 TELAS" Background="#53CDB9" Foreground="#09251D" FontWeight="Bold"/><Button x:Name="PreviewButton" Content="Prévia dos três temas"/><Button x:Name="CloseViewsButton" Content="Fechar projeções"/></WrapPanel>
+  <TextBlock x:Name="DeviceStatus" Foreground="#9BB1CD" FontSize="12" Margin="0,13,0,20" TextWrapping="Wrap"/>
+  <Border Background="#142238" CornerRadius="12" Padding="20"><Grid><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="180"/></Grid.ColumnDefinitions>
+   <StackPanel><TextBlock Text="TRILHA AUTOMÁTICA" Foreground="#91A8C8" FontSize="11" FontWeight="Bold"/><TextBlock x:Name="PlanCount" Text="25 disparos programados" FontSize="20" FontWeight="SemiBold" Margin="0,6,0,0"/><TextBlock x:Name="NextSound" Text="O som começa junto com a contagem." Foreground="#BBCADB" FontSize="13" Margin="0,7,0,0" TextWrapping="Wrap"/></StackPanel>
+   <Button Grid.Column="1" x:Name="PlanButton" Content="Ver programação" VerticalAlignment="Center" Margin="0"/>
+  </Grid></Border>
+  <TextBlock x:Name="AudioStatus" Foreground="#E5BE83" FontSize="12" Margin="0,12,0,0" TextWrapping="Wrap"/>
+  <Grid Margin="0,15,0,0"><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><TextBlock Text="ESPAÇO: iniciar/pausar   ·   F2 nas projeções: voltar a este painel" Foreground="#7289A8" FontSize="11" VerticalAlignment="Center"/><Button x:Name="CreditsButton" Grid.Column="1" Content="Áudios e créditos" FontSize="11" Padding="12,6" Margin="0"/></Grid>
+ </StackPanel></ScrollViewer>
+</Window>
