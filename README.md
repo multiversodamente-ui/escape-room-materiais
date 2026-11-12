@@ -1,12 +1,37 @@
-# Cronômetro Escape Room — Três Salas
+# Escape Room Científico - Materiais atualizados
+
+Cards dos desafios, materiais do monitor e cronômetro para três salas. Revisão dos cards de 11/11/2026, versão 2.
+
+## Downloads
+
+**[Baixar todos os materiais](https://github.com/multiversodamente-ui/escape-room-materiais/releases/latest/download/Escape_Room_Materiais_Atualizados.zip)**
+
+- [Cards atualizados para impressão - três por folha A4](cards/Jogadores/Cards_Atualizados_3_por_A4.pdf)
+- [Texto editável dos cards](cards/Jogadores/Cards_Atualizados_Editavel.md)
+- [Cartão de revelação de Energia Solar - uso do monitor](cards/Monitor/Energia_Solar_Cartao_Envelope.pdf)
+- [Notas e preparação do monitor](cards/Monitor/Notas_do_Monitor.md)
+- [Página da versão para download](https://github.com/multiversodamente-ui/escape-room-materiais/releases/latest)
+
+## Cards da versão atual
+
+- **Ilhas de Calor:** plantar três árvores conforme as anotações do cientista; a temperatura ideal revela o envelope da vitória.
+- **Rede Climática Inteligente:** comparar os registros de Ar que Respiramos e Ilhas de Calor com o cenário ideal e calcular as diferenças.
+- **Turbina Eólica:** variar a velocidade do vento e observar os LEDs acenderem.
+- As demais alterações da revisão anterior foram preservadas. O conjunto contém 15 cards em cinco páginas, com logo, cores e bordas tracejadas arredondadas.
+
+A pasta **Monitor** contém respostas e códigos; destine-a à organização. Os cards descrevem as regras revisadas: esta publicação não atualiza automaticamente os APKs ou as placas das estações.
+
+---
+
+## Cronômetro Escape Room — Três Salas
 
 Aplicativo para Windows com **um único tempo sincronizado em três telas**, temas animados e efeitos sonoros automáticos.
 
 ## Baixar e usar
 
-**[Baixar o pacote completo para Windows](https://github.com/multiversodamente-ui/escape-room-cronometro/releases/latest/download/Cronometro_Tres_Salas_Windows.zip)**
+**[Baixar o pacote completo para Windows](https://github.com/multiversodamente-ui/escape-room-materiais/releases/latest/download/Cronometro_Tres_Salas_Windows.zip)**
 
-[Baixar somente o aplicativo](https://github.com/multiversodamente-ui/escape-room-cronometro/releases/latest/download/Cronometro_Tres_Salas.exe) · [Página de downloads](https://github.com/multiversodamente-ui/escape-room-cronometro/releases/latest)
+[Baixar somente o aplicativo](https://github.com/multiversodamente-ui/escape-room-materiais/releases/latest/download/Cronometro_Tres_Salas.exe) · [Página de downloads](https://github.com/multiversodamente-ui/escape-room-materiais/releases/latest)
 
 1. Extraia o ZIP e abra **Cronometro Tres Salas.exe**.
 2. Conecte as telas ao mesmo computador e selecione **Estender** nas configurações de vídeo do Windows.
